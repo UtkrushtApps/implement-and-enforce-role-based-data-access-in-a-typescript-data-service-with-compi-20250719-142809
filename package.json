@@ -1,0 +1,16 @@
+{
+  "name": "saas-role-data-access",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/test/testDataService.ts"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1"
+  }
+}
